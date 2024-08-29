@@ -9,8 +9,7 @@
 9 Login
 10 Registration
 11 Compare page
+12 Shop page
 
 
 
-
-dddsf ds ff sdf sdf sdf 

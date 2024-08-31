@@ -37,10 +37,10 @@ $website-theme: mat.define-light-theme((
 
 /* You can add global styles to this file, and also import other style files */
 
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
 
 @import "../node_modules/bootstrap/scss/mixins/banner";
 @include bsBanner("");
-
 
 // scss-docs-start import-stack
 // Configuration
@@ -64,8 +64,8 @@ $website-theme: mat.define-light-theme((
 // @import "../node_modules/bootstrap/scss/transitions";
 // @import "../node_modules/bootstrap/scss/dropdown";
 // @import "../node_modules/bootstrap/scss/button-group";
-// @import "../node_modules/bootstrap/scss/nav";
-// @import "../node_modules/bootstrap/scss/navbar";
+ @import "../node_modules/bootstrap/scss/nav";
+ @import "../node_modules/bootstrap/scss/navbar";
 // @import "../node_modules/bootstrap/scss/card";
 // @import "../node_modules/bootstrap/scss/accordion";
 // @import "../node_modules/bootstrap/scss/breadcrumb";

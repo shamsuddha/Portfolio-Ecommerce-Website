@@ -12,8 +12,16 @@ import { RouterOutlet } from '@angular/router';
 })
 export class HeaderComp implements OnInit {
 
-  constructor() { }
+  opened = true;
+
+  constructor() {
+
+  }
 
   ngOnInit(): void { }
+
+  // toggleNavbar() {
+  //   this.isNavbarCollapsed = !this.isNavbarCollapsed;
+  // }
 
 }

@@ -1,7 +1,6 @@
 .top-bar {
-  background-color: #333;
+  background-color: rgb(29, 29, 29);
   color: #fff;
-  padding: 15px 10px;
   font-size: 14px;
 }
 
@@ -16,7 +15,6 @@
 
 .container {
   padding: 15px 20px;
-  background-color: #fff;
 }
 
 .logo img {
@@ -76,3 +74,70 @@
 .cart-icon span:hover {
   color: #4a90e2;
 }
+
+
+.shop-category-btn {
+  background-color: #3078ef;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin-right: 20px;
+}
+
+.shop-category-btn i {
+  margin-right: 10px;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: black;
+}
+
+.new-label {
+  font-size: 12px;
+  background: #3078ef;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-left: 5px;
+  font-weight: normal;
+}
+
+
+.shop-category-btn {
+  background-color: #3078ef;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin-right: 20px;
+}
+
+.shop-category-btn i {
+  margin-right: 10px;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: black;
+}
+
+.new-label {
+  font-size: 12px;
+  background: #3078ef;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin-left: 5px;
+  font-weight: normal;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+}
+

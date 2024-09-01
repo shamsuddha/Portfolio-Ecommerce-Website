@@ -12,7 +12,6 @@ import { RouterOutlet } from '@angular/router';
 })
 export class HeaderComp implements OnInit {
 
-  opened = true;
 
   constructor() {
 
@@ -20,8 +19,10 @@ export class HeaderComp implements OnInit {
 
   ngOnInit(): void { }
 
-  // toggleNavbar() {
-  //   this.isNavbarCollapsed = !this.isNavbarCollapsed;
-  // }
+  isMenuOpen: boolean = false;
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
 
 }

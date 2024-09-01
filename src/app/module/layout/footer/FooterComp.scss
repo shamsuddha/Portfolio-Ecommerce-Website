@@ -1,11 +1,9 @@
 .footer {
-
   color: rgb(153, 153, 153);
   padding: 40px 0;
   padding-bottom: 0px;
   background-color: rgb(33, 33, 33);
   line-height: 21px;
-
 }
 
 .footer-bottom
@@ -86,3 +84,23 @@
 
 
 
+.mobile-nav {
+  background-color: rgb(33, 33, 33);
+  color: #777;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 1.5rem;
+  align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+  .mobile-nav {
+  display: none;
+  }
+}

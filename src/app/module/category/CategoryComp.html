@@ -1,1 +1,49 @@
-<h1>this is category comp</h1>
+<div class="container mt-4">
+  <h2 class="mb-4">Shop</h2>
+  <div class="row">
+      <!-- Filters Sidebar -->
+      <aside class="col-md-3">
+          <div class="filter-section">
+              <h5>Filters</h5>
+              <div class="mb-3">
+                  <label class="form-label">Colors</label>
+                  <div class="d-flex gap-2">
+                      <button class="btn btn-sm btn-outline-dark">Black</button>
+                      <button class="btn btn-sm btn-outline-danger">Red</button>
+                      <button class="btn btn-sm btn-outline-primary">Blue</button>
+                  </div>
+              </div>
+              <div class="mb-3">
+                  <label class="form-label">Sizes</label>
+                  <select class="form-select">
+                      <option value="">Select Size</option>
+                      <option value="S">S</option>
+                      <option value="M">M</option>
+                      <option value="L">L</option>
+                      <option value="XL">XL</option>
+                  </select>
+              </div>
+              <div class="mb-3">
+                  <label class="form-label">Price Range</label>
+                  <input type="range" class="form-range" min="0" max="1500">
+              </div>
+          </div>
+      </aside>
+
+      <!-- Products Grid -->
+      <div class="col-md-9">
+          <div class="row">
+              <!-- Product Card -->
+              <div class="col-md-4 mb-4">
+                  <div class="product-card">
+                      <img src="https://via.placeholder.com/150" class="img-fluid mb-3" alt="Product Image">
+                      <h6>Candy Red Solid Tshirt</h6>
+                      <p>$45.00</p>
+                      <a href="product-details.html" class="btn btn-primary btn-sm">View Details</a>
+                  </div>
+              </div>
+              <!-- Repeat Product Card for more products -->
+          </div>
+      </div>
+  </div>
+</div>

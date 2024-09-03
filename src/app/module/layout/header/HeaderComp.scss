@@ -75,14 +75,17 @@
   color: #4a90e2;
 }
 
-.shop-by-category-button
-{
+.shop-by-category-button {
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-a.nav-link:hover
-{
+a.nav-link:hover {
   color: #1c1b1b;
 
+}
+
+
+.cdk-overlay-pane {
+  margin-top: 20px;
 }

@@ -235,4 +235,15 @@
 .color-circle:hover {
   transform: scale(1.2);
 }
- 
+
+
+.carousel-item img {
+  height: 300px; /* Adjust as needed */
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 10px;
+  border-radius: 5px;
+}

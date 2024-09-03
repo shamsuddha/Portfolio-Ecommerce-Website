@@ -4,13 +4,15 @@ import { RouterOutlet } from '@angular/router';
 import {MatMenuModule} from '@angular/material/menu';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { MatSidenav, MatSidenavModule } from '@angular/material/sidenav';
+import { HeaderTopComp } from './header_top/HeaderTopComp';
+import { MenuComp } from "./menu/MenuComp";
 
 @Component({
   selector: 'HeaderComp',
   templateUrl: './HeaderComp.html',
   styleUrls: ['./HeaderComp.scss'],
   standalone: true,
-  imports: [CommonModule, RouterOutlet, MatMenuModule, MatSidenavModule],
+  imports: [CommonModule, RouterOutlet, MatMenuModule, MatSidenavModule, HeaderTopComp, MenuComp],
   providers: [],
 })
 export class HeaderComp implements OnInit {
@@ -18,7 +20,6 @@ export class HeaderComp implements OnInit {
   @ViewChild('drawer') drawer!: MatSidenav;
   isMobile = false;
   opened = false; // Initially closed
-
 
   constructor(private breakpointObserver: BreakpointObserver) {  }
 
@@ -28,7 +29,6 @@ export class HeaderComp implements OnInit {
       this.opened = !this.isMobile; // Sidenav closed on mobile initially
     });
   };
-
 
   // Method to toggle the drawer state
   toggleDrawer(): void {

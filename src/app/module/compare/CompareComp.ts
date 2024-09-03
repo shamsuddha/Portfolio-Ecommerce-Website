@@ -7,7 +7,7 @@ import { RouterOutlet } from '@angular/router';
  templateUrl: './CompareComp.html',
  styleUrls: ['./CompareComp.scss'],
  standalone: true,
- imports: [CommonModule, RouterOutlet],
+ imports: [CommonModule],
  providers: [],
 })
 export class CompareComp implements OnInit {

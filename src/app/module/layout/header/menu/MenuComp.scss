@@ -1,0 +1,28 @@
+.shop-by-category-button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+a.nav-link:hover {
+  color: #1c1b1b;
+}
+
+.cdk-overlay-pane {
+  margin-top: 20px;
+}
+
+/* Ensure your custom menu is styled */
+.custom-menu .mat-menu-panel {
+  min-width: 0px !important; /* Prevents default min-width */
+  width: 100%; /* Set it to 100% to match parent button width */
+}
+
+/* Specific styling for the trigger button if needed */
+.category-button {
+  width: 200px; /* Set your desired width for the trigger button */
+}
+
+
+.container {
+  padding: 15px 20px;
+}

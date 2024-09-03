@@ -9,12 +9,6 @@
 // Be sure that you only ever include this mixin once!
 @include mat.core();
 
-/* Ensure mat-menu has a proper width */
-mat-menu {
-  width: 100%; /* This ensures the menu itself takes up the full width of its container */
-}
-
-
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
@@ -101,14 +95,9 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 
-
-/* Ensure mat-menu has a proper width */
-mat-menu {
-  width: 100%; /* This ensures the menu itself takes up the full width of its container */
-}
-
-/* Style mat-menu-item to fit within the col-3 width */
-.custom-menu-item {
-  width: 100%; /* Make sure each menu item takes the full width of the menu */
-  box-sizing: border-box; /* Include padding and border in the element's total width */
+.custom-menu {
+  width: 300px;
+  padding: 0px;
+  margin: 0px;
+  background: rgb(247, 247, 247);
 }

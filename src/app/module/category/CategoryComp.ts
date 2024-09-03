@@ -1,13 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { SidebarComp } from "../layout/sidebar/SidebarComp";
 
 @Component({
  selector: 'CategoryComp',
  templateUrl: './CategoryComp.html',
  styleUrls: ['./CategoryComp.scss'],
  standalone: true,
- imports: [CommonModule, RouterOutlet],
+ imports: [CommonModule, SidebarComp],
  providers: [],
 })
 export class CategoryComp implements OnInit {

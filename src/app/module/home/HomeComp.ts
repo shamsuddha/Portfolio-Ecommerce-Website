@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {MatTabsModule} from '@angular/material/tabs';
 
+declare var bootstrap: any;
 @Component({
   selector: 'HomeComp',
   templateUrl: './HomeComp.html',
@@ -15,5 +16,8 @@ export class HomeComp implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void { }
+  ngOnInit(): void {
+
+
+  }
 }

@@ -1,6 +1,6 @@
-1. Login Registration component
-2. Cart dropdown
-3. Home page slider
+1. Login Registration component (done)
+2. Cart dropdown (done)
+3. Home page slider (doing)
 * make component with necessary ng if and ng for
 4. Menu background-color
 5. Product view e click korle dialog open hobe

@@ -3,7 +3,15 @@ import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {MatTabsModule} from '@angular/material/tabs';
 
-declare var bootstrap: any;
+
+export interface PhotosApi {
+  albumId?: number;
+  id?: number;
+  title?: string;
+  url?: string;
+  thumbnailUrl?: string;
+}
+
 @Component({
   selector: 'HomeComp',
   templateUrl: './HomeComp.html',

@@ -1,4 +1,4 @@
-<header class="header">
+<header class="header mb-3">
   <HeaderTopComp></HeaderTopComp>
   <div class="container">
     <div class="row align-items-center">
@@ -6,8 +6,7 @@
       <div class="logo col-12 col-lg-3 d-flex justify-content-center">
         <img src="../../../../assets/images/logo.png" alt="Logo">
         <!-- Bootstrap Toggle Button for Mobile -->
-        <button (click)="toggleDrawer()" class="navbar-toggler px-3 fs-3 d-block d-lg-none" type="button"
-          aria-label="Toggle sidenav">
+        <button class="navbar-toggler px-3 fs-3 d-block d-lg-none" type="button" aria-label="Toggle sidenav">
           <i class="fa-solid fa-bars px-2"></i>
         </button>
       </div>
@@ -21,8 +20,68 @@
       <!-- Cart and Other Icons (Visible on Large Screens) -->
       <div class="cart-icon col-12 col-lg-2 d-none d-lg-flex justify-content-start">
         <span class="fs-4 px-1">
-          <i class="fa-solid fa-cart-shopping text-primary"></i>
+          <i class="fa-solid fa-cart-shopping text-primary" [matMenuTriggerFor]="menu"></i>
         </span>
+        <mat-menu #menu="matMenu">
+          <div class="cart-popup">
+            <div class="cart-item d-flex justify-content-center px-1 mx-1 pt-1 mt-1 border-bottom">
+              <div class="product-image p-1">
+                <img src="https://via.placeholder.com/100" alt="Product Image">
+              </div>
+              <div class="cart-item-text p-1">
+                <p class="p-0">Itemss dfdssd ffsdf sd sdf sdf Name</p>
+                <p class="p-0"> 1 x $299.00 </p>
+              </div>
+              <div class="p-1">
+                <i class="fa-regular fa-circle-xmark"></i>
+              </div>
+            </div>
+            <div class="cart-item d-flex justify-content-center px-1 mx-1 pt-1 mt-1 border-bottom">
+              <div class="product-image p-1">
+                <img src="https://via.placeholder.com/100" alt="Product Image">
+              </div>
+              <div class="cart-item-text p-1">
+                <p class="p-0">Itemss dfdssd ffsdf sd sdf sdf Name</p>
+                <p class="p-0"> 1 x $299.00 </p>
+              </div>
+              <div class="p-1">
+                <i class="fa-regular fa-circle-xmark"></i>
+              </div>
+            </div>
+
+            <div class="cart-item d-flex justify-content-center px-1 mx-1 pt-1 mt-1 border-bottom">
+              <div class="product-image p-1">
+                <img src="https://via.placeholder.com/100" alt="Product Image">
+              </div>
+              <div class="cart-item-text p-1">
+                <p class="p-0">Itemss dfdssd ffsdf sd sdf sdf Name</p>
+                <p class="p-0"> 1 x $299.00 </p>
+              </div>
+              <div class="p-1">
+                <i class="fa-regular fa-circle-xmark"></i>
+              </div>
+            </div>
+
+            <div class="cart-item d-flex justify-content-center px-1 mx-1 pt-1 mt-1 border-bottom">
+              <div class="product-image p-1">
+                <img src="https://via.placeholder.com/100" alt="Product Image">
+              </div>
+              <div class="cart-item-text p-1">
+                <p class="p-0">Itemss dfdssd ffsdf sd sdf sdf Name</p>
+                <p class="p-0"> 1 x $299.00 </p>
+              </div>
+              <div class="p-1">
+                <i class="fa-regular fa-circle-xmark"></i>
+              </div>
+            </div>
+
+            <p class="cart-subtotal text-center pt-2"><strong>Subtotal:</strong> $299.00</p>
+            <div class="cart-buttons d-flex justify-content-center">
+              <button class="btn btn-primary rounded-0 m-1">View Cart</button>
+              <button class="btn btn-success rounded-0 m-1">Checkout</button>
+            </div>
+          </div>
+        </mat-menu>
         <span class="fs-4 px-1">
           <i class="fa-solid fa-code-compare text-primary"></i>
         </span>

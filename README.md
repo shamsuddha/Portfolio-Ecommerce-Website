@@ -1,10 +1,10 @@
 1. Login Registration component (done)
 2. Cart dropdown (done)
-3. Home page slider (doing)
+3. Home page slider (Working)
 * make component with necessary ng if and ng for
-4. Menu background-color
+4. Menu background-color (done)
 5. Product view e click korle dialog open hobe
-6. New products and featured products button color
+6. New products and featured products button color (Working)
 7. Single page design, slider, comment box description, review tabs etc
 8. Category page e shop page er moto product add korte hobe
 9. Shop page title and breadcrumb add korte hobe
